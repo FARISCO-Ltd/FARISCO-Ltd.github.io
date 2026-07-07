@@ -6,7 +6,7 @@ const PROFILE = {
   links: {
     creators: "https://creators.sa/farisco1218",
     paypal: "https://www.paypal.com/paypalme/farisco1218",
-    tiktok: "https://www.tiktok.com/@fariscoltd",
+    tiktok: "https://www.tiktok.com/@farisco.ltd",
     telegram: "https://t.me/faris_ltd"
   },
   labels: {
