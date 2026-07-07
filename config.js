@@ -5,9 +5,9 @@ const PROFILE = {
   website: "https://farisco-ltd.github.io",
   links: {
     creators: "https://creators.sa/farisco1218",
-    paypal: "https://www.paypal.com/paypalme/yourname",
-    tiktok: "https://www.tiktok.com/@yourusername",
-    telegram: "https://t.me/yourusername"
+    paypal: "https://www.paypal.com/paypalme/farisco1218",
+    tiktok: "https://www.tiktok.com/@farisco.ltd",
+    telegram: "https://t.me/faris_ltd"
   },
   labels: {
     en: {
