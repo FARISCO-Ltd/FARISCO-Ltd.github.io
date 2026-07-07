@@ -1,1 +1,15 @@
-{"name":"FARIS | فارس","short_name":"FARIS","start_url":"./","display":"standalone","background_color":"#020000","theme_color":"#050000","icons":[{"src":"assets/logo.png","sizes":"512x512","type":"image/png"}]}
+{
+  "name": "FARIS | فارس",
+  "short_name": "FARIS",
+  "start_url": "./?v=4",
+  "display": "standalone",
+  "background_color": "#020000",
+  "theme_color": "#050000",
+  "icons": [
+    {
+      "src": "assets/logo.png?v=4",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
