@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>FARIS | فارس</title>
+  <meta name="description" content="FARIS | فارس - Music and Gaming official links.">
+  <meta name="theme-color" content="#050000">
+  <meta property="og:title" content="FARIS | فارس">
+  <meta property="og:description" content="Music • Gaming - Official links">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/logo.png">
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/logo.png">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="loader"><div class="loader-ring"></div><img src="assets/logo.png" alt="FARIS logo"><span>FARIS</span></div>
+  <canvas id="bgCanvas" aria-hidden="true"></canvas>
+  <main class="page">
+    <header class="topbar">
+      <button class="mini-btn" id="themeTop" aria-label="Toggle theme">☾</button>
+      <div class="lang-switch"><button data-lang="en" class="active">EN</button><button data-lang="ar">AR</button></div>
+    </header>
+    <section class="hero" aria-label="FARIS profile">
+      <div class="logo-orbit">
+        <span class="orbit-line"></span><span class="spark s1"></span><span class="spark s2"></span>
+        <div class="logo-card"><img src="assets/logo.png" alt="FARIS | فارس logo"></div>
+      </div>
+      <h1 class="hero-title mokoto">FARIS</h1>
+      <div class="laser"></div>
+      <p class="bio">MUSIC <span>•</span> GAMING</p>
+    </section>
+    <section class="links" aria-label="Profile links">
+      <a class="link-card" id="creatorsLink" href="#" target="_blank" rel="noopener"><img src="assets/creators.svg" alt=""><div><strong data-i18n="creatorsTitle">Creators Support</strong><small data-i18n="creatorsSub">Support via Creators</small></div><b>↗</b></a>
+      <a class="link-card" id="paypalLink" href="#" target="_blank" rel="noopener"><img src="assets/paypal.svg" alt=""><div><strong data-i18n="paypalTitle">PayPal Donation</strong><small data-i18n="paypalSub">Support My Work</small></div><b>↗</b></a>
+      <a class="link-card" id="tiktokLink" href="#" target="_blank" rel="noopener"><img src="assets/tiktok.svg" alt=""><div><strong data-i18n="tiktokTitle">TikTok Page</strong><small data-i18n="tiktokSub">Follow me on TikTok</small></div><b>↗</b></a>
+      <a class="link-card" id="telegramLink" href="#" target="_blank" rel="noopener"><img src="assets/telegram.svg" alt=""><div><strong data-i18n="telegramTitle">Telegram Page</strong><small data-i18n="telegramSub">Join my Telegram</small></div><b>↗</b></a>
+    </section>
+    <section class="actions">
+      <button id="shareBtn"><span>⌯</span><small data-i18n="share">Share</small></button>
+      <button id="copyBtn"><span>▣</span><small data-i18n="copy">Copy Link</small></button>
+      <button id="qrBtn" class="qr-action"><img id="qrImage" alt="QR Code"><small data-i18n="qr">QR Code</small></button>
+      <button id="langBtn"><span>A文</span><small data-i18n="language">Language</small></button>
+      <button id="themeBtn"><span>☼</span><small data-i18n="theme">Theme</small></button>
+    </section>
+    <footer>© <span id="year"></span> FARIS | فارس. All rights reserved.</footer>
+  </main>
+  <div id="toast"></div>
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
