@@ -31,3 +31,19 @@
 ثم بعد ذلك استخدم الرابط العادي:
 
 `https://farisco-ltd.github.io/`
+
+- Discord: https://discord.gg/gxWJQqZ3Bq
+
+
+## Final asset update
+
+- Creators logo is stored locally in `assets/creators.svg`.
+- Discord card and local Discord SVG are included.
+
+## النسخة النظيفة v1.2
+
+- تمت إزالة ملف الشعار المكرر `assets/Logo.png`.
+- الملف المعتمد للشعار هو `assets/logo.png`.
+- شعار Creators محفوظ محليًا في `assets/creators.svg`.
+- بطاقة Discord وشعارها المحلي موجودان داخل المشروع.
+- تم تحديث إصدار الكاش إلى `faris-v7` لضمان ظهور آخر نسخة بعد الرفع.

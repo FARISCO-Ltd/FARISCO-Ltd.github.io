@@ -1,4 +1,4 @@
-const CACHE = 'faris-v4';
+const CACHE = 'faris-v7';
 const FILES = [
   './',
   'index.html',
@@ -8,7 +8,8 @@ const FILES = [
   'assets/creators.svg',
   'assets/paypal.svg',
   'assets/tiktok.svg',
-  'assets/telegram.svg'
+  'assets/telegram.svg',
+  'assets/discord.svg'
 ];
 
 self.addEventListener('install', event => {
